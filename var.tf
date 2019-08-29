@@ -26,7 +26,7 @@ variable "ib_protocol"{
 }
 
 variable "ib_cidr_block"{
- 
+default = [] 
 }
 
 variable "ob_from_port"{
@@ -42,5 +42,5 @@ variable "ob_protocol"{
 }
 
 variable "ob_cidr_block"{
- 
+default = [] 
 }
